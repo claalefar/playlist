@@ -1,0 +1,90 @@
+body {
+  margin: 0%;
+  font-family: Avenir;
+}
+
+.header {
+  background-color: rgb(180, 180, 180);
+  display: block;
+  top: 0%;
+  width: 100%;
+  position: absolute;
+  position: fixed;
+  padding: 30px;
+  clear: both;
+}
+
+.container {
+  margin: 0%;
+}
+
+.first-col {
+  text-align: center;
+  height: 645px;
+  margin: 60px 0;
+  padding-top: 250px;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+.btn {
+  border-radius: 4px;
+  font-size: 20px;
+  background: rgb(39, 39, 39);
+  color: white;
+  padding: 10px;
+  margin: auto;
+}
+
+.btn:hover {
+  background-color: rgb(61, 61, 61);
+}
+
+.btn:active {
+  background-color: rgb(0, 172, 14);
+}
+
+#secondCol {
+  background-image: url(/Users/clarence/Documents/galvanize/g108WarmUps/Assessment/playlist/resources/fadedTrackbg.png);
+
+  background-color: aquamarine;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: 60px;
+  padding-top: 25px;
+  border: none;
+  top: 0%;
+  z-index: 0;
+}
+
+.overflow {
+  width: 80%;
+  height: 100%;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.cd {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  padding-top: 10px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.cd > img {
+  width: 100%;
+}
+
+.footer {
+  background-color: rgb(100, 100, 100);
+  position: absolute;
+  position: fixed;
+  color: white;
+  padding: 20px;
+  bottom: 0%;
+  width: 100%;
+}

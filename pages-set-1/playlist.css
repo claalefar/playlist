@@ -1,0 +1,62 @@
+body {
+  margin: 0%;
+}
+
+.header {
+  background-color: rgb(180, 180, 180);
+  width: 100%;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  margin-left: 0;
+  margin-top: 0;
+  color: white;
+  font-size: 2rem;
+  font-family: Avenir;
+}
+
+#album-cover {
+  margin-right: 28px !important;
+  border: 1px lightgray solid;
+  width: 90px;
+  height: 90px;
+}
+
+#row-3 {
+  /* width: 100%; */
+}
+
+#added-track {
+  width: 150px;
+  height: 150px;
+  border: 1px lightgray solid;
+}
+
+#bin {
+  border: 2px lightgray solid;
+  width: 400px;
+  height: 230px;
+}
+
+.row-btn {
+  background-color: rgb(61, 61, 61);
+  text-align: center;
+  border-radius: 4px;
+  padding: 4px;
+  height: 35px;
+}
+
+.row-btn,
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer {
+  background-color: rgb(100, 100, 100);
+  color: white;
+  margin: 0;
+  position: fixed;
+  bottom: 0px;
+  clear: both;
+  width: 100%;
+}
